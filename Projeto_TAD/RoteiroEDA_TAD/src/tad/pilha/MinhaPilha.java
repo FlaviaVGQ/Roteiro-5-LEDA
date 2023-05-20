@@ -58,8 +58,7 @@ public class MinhaPilha implements PilhaIF<Integer> {
 		for (int i = topo; i >= 0 && contador < k; i--) {
 			try {
 				novaPilha.empilhar(meusDados[i]);
-			} catch (PilhaCheiaException e) {
-				// Tratamento opcional para exceção de pilha cheia
+			} catch (PilhaCheiaException e) {	
 			}
 			
 		}
